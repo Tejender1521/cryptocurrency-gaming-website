@@ -9,19 +9,18 @@ export default function Home() {
     <Section id="home">
       <div className="text">
         <h1>
-          <span className="highlight">Earthium</span> is a real-time stratergic
-          game
+          <span className="highlight">Tejender</span> is a MERN Stack Developer
         </h1>
         <p>
-          Where you can earn money, <span className="highlight"> crypto </span>
-          and
-          <span className="highlight"> NFTs </span>
-          by trading land, finding treasures and building businesses. Welcome!
+          Undergrad at IIIT Kota <span className="highlight"> B-Tech </span>
+          in
+          <span className="highlight"> C.S.E.</span>
+          , Competetive Programmer and DSA Enthusiast.
         </p>
-        <Button text="Join Our Discord" icon={<RiGroupLine />} />
+        <Button text="LinkedIn Profile" icon={<RiGroupLine />} />
       </div>
       <div className="image">
-        <img src={image} alt="Home Image" />
+        <img src={image} alt="Home" />
       </div>
     </Section>
   );

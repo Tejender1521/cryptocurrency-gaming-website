@@ -9,21 +9,19 @@ export default function Blogs() {
   return (
     <Section id="blogs">
       <div className="title">
-        <h2>News & Feeds</h2>
-        <h5>Where you can earn crypto</h5>
+        <h2>Education</h2>
+        <h5>Education and Reviews</h5>
       </div>
       <div className="blogs">
         {images.map((img, index) => {
           return (
             <div className="blog" key={index}>
-              <img src={img} alt="Blog Image" />
+              <img src={img} alt="Blog" />
               <div className="data">
-                <h6>31 Jan, 2021</h6>
-                <h4>Rightmove Now Offering Click to Purchase Option</h4>
+                <h6>1 Jan, 2022</h6>
+                <h4>Allen Carees Institute</h4>
                 <p>
-                  Rightmove is now offering an option that enables buyers of
-                  selected commercial properties the option to submit offers and
-                  digitally exchange contracts online.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat error distinctio totam, ex sequi deleniti alias expedita reprehenderit recusandae iste voluptates, illum doloribus? Fugiat libero laudantium sequi nemo quod consequuntur?
                 </p>
               </div>
             </div>

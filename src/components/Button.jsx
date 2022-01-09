@@ -2,12 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import { BsArrowRightShort } from "react-icons/bs";
 export default function Button(props) {
-  let { icon, text } = props;
+  let { icon, text} = props;
   if (icon === undefined) icon = <BsArrowRightShort />;
   return (
     <Btn>
       {icon}
       {text}
+      
     </Btn>
   );
 }

@@ -10,7 +10,7 @@ export default function Navbar() {
     <Nav>
       <div className="brand">
         <div className="logo">
-          <img src={logo} alt="Earthium" />
+          <img src={logo} alt="Hello" />
         </div>
         <div className="toggle">
           {navState ? (
@@ -32,7 +32,7 @@ export default function Navbar() {
             <a href="about">About</a>
           </li>
           <li>
-            <a href="news">News</a>
+            <a href="news">Projects</a>
           </li>
         </ul>
         <div className="login-btn">

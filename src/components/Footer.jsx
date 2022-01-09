@@ -4,7 +4,14 @@ import logo from "assets/logo.png";
 import Button from "./Button";
 export default function Footer() {
   const links = [
-    { title: "Company", links: ["Home", "Map", "About", "News"] },
+    { title: "Company", 
+    links: [
+      "Home", 
+      "Map", 
+      "About", 
+      "News"
+    ] 
+    },
     {
       title: "Links",
       links: [
